@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Software de Impacto - projetos que fazem a diferença
 
-## Getting Started
+## 📜 A Missão do Projeto
 
-First, run the development server:
+### O problema
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Hoje é muito fácil encontrar projetos com objetivos individuais: portfólio, aprendizado, desafios, etc. Mas é muito difícil encontrar projetos com objetivos coletivos, que buscam (mesmo) impactar a sociedade de forma positiva.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Quando achamos, não há:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- visibilidade suficiente: não são tão "glamourosos" quanto projetos de IA, portfólios de design deslumbrante etc.
+- evolução: às vezes "morre" com potencial
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+A causa: esmagado pelo grande desafio e falta de suporte.
 
-## Learn More
+### Mas porquê não usar a IA para achar esses projetos?
 
-To learn more about Next.js, take a look at the following resources:
+É uma boa pergunta. Eu elenco duas coisas que a IA não te dá:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- curadoria humana: aqui, a própria comunidade de devs e usuários decide o que é relevante e o que não é
+- sem interações entre devs dispostos a ajudar: aqui, você se conecta com pessoas que querem (realmente) contribuir com o projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### A solução
 
-## Deploy on Vercel
+Em uma frase: **conectar devs a projetos reais de impacto na comunidade, centralizados em uma única plataforma**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Bônus: Motivo filosófico do porquê contribuir
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Você já ouviu falar sobre o sentido da vida? Na filosofia analítica, essa resposta é **objetiva** (não depende exclusivamente de cada um), **naturalista** (não depende da existência de deuses) e é **otimista** (há sim sentido na vida).
+
+Segundo a filósofa Susan Wolf, uma vida com significado surge quando uma **atração subjetiva** (um interesse) encontra **algo objetivamente valioso**, e **a pessoa se envolve ativamente** com isso.
+
+E o que é objetivamente valioso? Tudo aquilo que é **importante para alguém além de você mesmo**. E é exatamente isso que o Software de Impacto busca: **projetos que fazem a diferença na vida de outras pessoas**, onde **você pode contribuir ativamente**.
