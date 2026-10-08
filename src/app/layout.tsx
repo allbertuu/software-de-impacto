@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Oxanium, Montserrat } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const montserratHeading = Montserrat({
   subsets: ["latin"],
@@ -16,19 +17,30 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={cn(
-        "h-full",
-        "antialiased",
-        "font-sans",
-        oxanium.variable,
-        montserratHeading.variable,
-      )}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
-    </html>
+    <>
+      <html
+        lang="en"
+        className={cn(
+          "h-full",
+          "antialiased",
+          "font-sans",
+          oxanium.variable,
+          montserratHeading.variable,
+        )}
+        suppressHydrationWarning
+      >
+        {/* <head /> */}
+        <body className="min-h-full flex flex-col">
+          <ThemeProvider>{children}</ThemeProvider>
+        </body>
+      </html>
+    </>
   );
 }
+
+
+
+
+
 
 
